@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="Keywords" content="Accessibility, Web design, Whit's End Web Design" />
+<meta name="Description" content="Whit's End Web Design" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+<title>Welcome to Whit's End</title>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/testimonials_rollover.jpg','images/about_us_rollover.jpg','images/portfolio_rollover.jpg','images/contact_rollover.jpg')">
+<!--HEADER-->
+<header>
+</header>
+
+
+<!-- PAGE NAVIGATION -->
+<nav>
+    <div id="navbar"><a href="testimonials.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Testimonials','','images/testimonials_rollover.jpg',1)"><img src="images/testimonials_button.jpg" alt="" width="200" height="60" id="Testimonials"></a><a href="portfolio.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Portfolio','','images/portfolio_rollover.jpg',1)"><img src="images/portfolio_button.jpg" alt="" width="202" height="60" id="Portfolio"></a><a href="about_us.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('About Us','','images/about_us_rollover.jpg',1)"><img src="images/about_us_button.jpg" alt="" width="202" height="60" id="About Us"></a>    </div>
+</nav>
+<h1>&nbsp;</h1>
+<h1>Accessibility&nbsp;</h1>
+<h1>is for everyone,&nbsp;</h1>
+<h1>is your website?</h1>
+<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+
+<a href="contact_us.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Get In Touch','','images/contact_rollover.jpg',1)"><img src="images/contact.jpg" alt="" width="320" height="100" id="Get In Touch"></a>
+	<p>&nbsp;</p>
+</body>
+</html>
